@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#register_wrapper {
+    border-radius: 6px;
+    padding: 10px;
+    margin: 4px;
+    width: 450px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-title {
+    margin: 6px;
+    color: rgb(15, 15, 15);
+    font-size: 26px;
+}
+
+#register-top-image {
+    display: flex;
+    width: 80%;
+}
+
+#field-wrapper {
+    padding: 6px;
+}

@@ -13,14 +13,21 @@ if (session_status() == PHP_SESSION_NONE) {
     but for now let's use global config along with Config class to make the job done !
 */
 $GLOBALS["config"] = array(
-    "mysql" => array(
+    'mysql' => array(
         'host'=>'127.0.0.1',
         'username'=>'root',
         'password'=>'',
         'db'=>'educ_cms'
     ),
-    "root"=> array(
+    'remember'=> array(
+        'cookie_name'=>'remember_cookie',
+        'cookie_expiry'=>604800
+    ),
+    'root'=> array(
         'path'=>'http://127.0.0.1/RESEARCH_GATE/',
-        'project_name'=>"educ_cms"
-    )
+        'project_name'=>'educ_cms'
+    ),
+    'session'=>array(
+        'session_name'=>'user'
+    ),
 );

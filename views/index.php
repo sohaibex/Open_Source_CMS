@@ -1,3 +1,16 @@
+<?php
+
+    require_once "../vendor/autoload.php";
+    require_once "../core/init.php";
+
+    use classes\{Config};
+    use models\{User};
+
+    $user = new User(1);
+    echo "eee";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,6 +27,9 @@
 </head>
 
 <body>
+    <main>
+        <?php echo Config::get('root/path') ?>
+    </main>
 </body>
 
 </html>
