@@ -1,4 +1,4 @@
-<?php include '../index.php' ?>
+<?php include '../../layout/header.php' ?>
 <div class="account-pages my-5">
     <div class="container">
         <div class="row justify-content-center">
