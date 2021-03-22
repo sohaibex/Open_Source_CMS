@@ -6,7 +6,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <div class="row">
-                            <div class="col-md-12 p-5">
+                            <div class="col-md-6 p-5  mx-auto">
                                 <div class="mx-auto mb-5">
                                     <a href="/">
                                         <h3 class="d-inline align-middle ml-1 text-logo">CMS</h3>
@@ -74,7 +74,7 @@
 
                 <div class="row mt-3">
                     <div class="col-12 text-center">
-                        <p class="text-muted">Don't have an account? <a href="/Open_Source_CMS/views" class="text-primary font-weight-bold ml-1">Sign Up</a></p>
+                        <p class="text-muted">Don't have an account? <a href="/Open_Source_CMS/views/auth/signup.php" class="text-primary font-weight-bold ml-1">Sign Up</a></p>
                     </div>
                 </div>
             </div>
