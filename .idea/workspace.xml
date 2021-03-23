@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deea025a-e5b7-458a-915e-5224af8e2dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/headerdashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/auth/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616353415727</updated>
       <workItem from="1616353418564" duration="2844000" />
-      <workItem from="1616451751185" duration="1991000" />
+      <workItem from="1616451751185" duration="2768000" />
+      <workItem from="1616506042409" duration="3022000" />
     </task>
     <servers />
   </component>
@@ -64,9 +67,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1616453318631" />
-    <state x="477" y="265" key="NewPhpFileDialog" timestamp="1616452917841">
+    <state x="477" y="265" key="NewPhpFileDialog" timestamp="1616506663219">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1616452917841" />
+    <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1616506663219" />
   </component>
 </project>

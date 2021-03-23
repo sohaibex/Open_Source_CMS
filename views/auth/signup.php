@@ -112,7 +112,8 @@
                                                         <input type="password"
                                                                name="confirm_password"
                                                                class="form-control "
-                                                               id="confirm_password" placeholder="Confirm your password"/>
+                                                               id="confirm_password"
+                                                               placeholder="Confirm your password"/>
 
                                                     </div>
                                                 </div>
@@ -121,33 +122,31 @@
                                     </div>
 
 
-
-
-
                                     <div class="form-group mb-0 text-center d-flex justify-content-center mt-2">
-                                        <button class="btn btn-primary btn-block d" style="width: 50%" type="submit">Sign Up</button>
+                                        <button class="btn btn-primary btn-block d" style="width: 50%" type="submit">
+                                            Sign Up
+                                        </button>
                                     </div>
                                 </form>
                             </div>
 
 
-
+                        </div>
                     </div>
-                </div>
 
 
-                <div class="row mt-3">
-                    <div class="col-12 text-center">
-                        <p class="text-muted">Already have account? <a href="/Open_Source_CMS/views/auth/login.php"
-                                                                       class="text-primary font-weight-bold ml-1">Login</a>
-                        </p>
+                    <div class="row mt-3">
+                        <div class="col-12 text-center">
+                            <p class="text-muted">Already have account? <a href="/Open_Source_CMS/views/auth/login.php"
+                             class="text-primary font-weight-bold ml-1">Login</a>
+                            </p>
+                        </div>
                     </div>
+
+
                 </div>
-
-
             </div>
+
         </div>
 
     </div>
-
-</div>
