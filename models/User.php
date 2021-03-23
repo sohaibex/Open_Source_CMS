@@ -89,6 +89,19 @@ class User {
         return DB::getInstance()->query('SELECT * FROM users')->results();
     }
 
+    public function register($data) {
+        $arr = [];
+        foreach($data as $item) {
+            $arr[] = $item;
+        }
+
+        $this->db->query("INSERT INTO users (`firstname`, `lastname`, `username`, `email`, `password`, `salt`, `joined`) VALUES (?,?,?,?,?,?,?)", $arr);
+
+
+
+        return ($this->db->error()) ? false : true;
+    }
+
     public static function login($email_or_username, $password, $remember=false) {
         // First we create a user
         $user = new User();
