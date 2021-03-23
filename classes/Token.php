@@ -19,7 +19,7 @@ class Token {
 
     public static function check($token, $token_name) {
         if(Session::exists($token_name) && $token === Session::get($token_name)) {
-            Session::delete($tokenName);
+            Session::delete($token_name);
             return true;
         }
 
